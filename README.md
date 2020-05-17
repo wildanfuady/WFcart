@@ -45,7 +45,7 @@ $item = [
 	'id'		=> $id,
 	'name'		=> 'Product 1,
 	'price'		=> 1000,
-	'photo'		=> 'Lorem ipsum,
+	'photo'		=> 'product1.jpg',
 	'quantity'	=> 1
 ];
 $this->cart->add_cart($id, $item);</pre></code>
