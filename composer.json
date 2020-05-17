@@ -1,0 +1,8 @@
+{
+    "name": "wildanfuady/wfcart",
+    "description": "Free open source library / package for shopping cart in Codeigniter 4",
+    "require": {
+        "php": "^7.2",
+        "wildanfuady/wfcart": "1.*"
+    }
+}
