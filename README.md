@@ -15,7 +15,12 @@ Free Open Source Library / Package Shopping Cart For Codeigniter 4
 
 1. Tambahkan kode berikut sebelum nama class di Controller
 
-<pre><code>use Wildanfuady\WFcart\WFcart;</pre></code>
+<pre><code>use Wildanfuady\WFcart\WFcart;
+
+class Cart extends BaseController
+{
+    // code
+}</pre></code>
 
 2. Pada function construct, tambahkan baris kode di bawah ini:
 
