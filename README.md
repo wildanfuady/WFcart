@@ -41,3 +41,8 @@ $this->cart->add_cart($id, $item);</pre></code>
 7. Untuk mengupdate keranjang belanja, silahkan gunakan perintah di bawah ini:
 
 <pre><code>$this->cart->update();</pre></code>
+
+## Tutorial Pendukung
+
+1. https://ilmucoding.com/shopping-cart-codeigniter-4/
+2. https://ilmucoding.com/cart-codeigniter-4/
