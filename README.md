@@ -43,7 +43,6 @@ $item = [
 	'photo'		=> 'Lorem ipsum,
 	'quantity'	=> 1
 ];
-// cek session cart sudah ada atau belum
 $this->cart->add_cart($id, $item);</pre></code>
 
 6. Untuk menghapus suatu product berdasarkan id di dalam keranjang belanja, gunakan perintah di bawah ini:
