@@ -23,9 +23,9 @@ Free Open Source Library / Package Shopping Cart For Codeigniter 4
 
 5. Untuk memasukan suatu product ke dalam keranjang belanja, gunakan perintah di bawah ini:
 
-<pre><code>$id = 1;
+<pre><code>$id = 1; // ambil dari kode product
 $item = [
-	'id'		=> 1,
+	'id'		=> $id,
 	'name'		=> 'Product 1,
 	'price'		=> 1000,
 	'photo'		=> 'Lorem ipsum,
