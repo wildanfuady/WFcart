@@ -11,6 +11,23 @@ Free Open Source Library / Package Shopping Cart For Codeigniter 4
 
 <pre><code>git clone https://github.com/wildanfuady/WFcart.git</code></pre>
 
+3. Aktifkan autoload. Silahkan buka file app/Config/Autoload.php dan cari kode berikut ini:
+
+<pre><code>$psr4 = [
+	'App'         => APPPATH,                // To ensure filters, etc still found,
+	APP_NAMESPACE => APPPATH,                // For custom namespace
+	'Config'      => APPPATH . 'Config'
+];</pre></code>
+
+Tambahkan 1 baris kode di bawah ini:
+
+<pre><code>$psr4 = [
+	'App'         => APPPATH,                // To ensure filters, etc still found,
+	APP_NAMESPACE => APPPATH,                // For custom namespace
+	'Config'      => APPPATH . 'Config',
+	'Wildanfuady' => APPPATH . 'ThirdParty/Wildanfuady'
+];</pre></code>
+
 ## Cara Penggunaan
 
 1. Tambahkan kode berikut sebelum nama class di Controller
