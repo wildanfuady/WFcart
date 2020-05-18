@@ -25,7 +25,7 @@ Tambahkan 1 baris kode di bawah ini:
 	'App'         => APPPATH,                // To ensure filters, etc still found,
 	APP_NAMESPACE => APPPATH,                // For custom namespace
 	'Config'      => APPPATH . 'Config',
-	'Wildanfuady' => APPPATH . 'ThirdParty/Wildanfuady'
+	'Wildanfuady' => APPPATH . 'ThirdParty/WFcart/Wildanfuady'
 ];</pre></code>
 
 ## Cara Penggunaan
