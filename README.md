@@ -3,7 +3,7 @@ Free Open Source Library / Package Shopping Cart For Codeigniter 4
 
 ## Cara Install
 
-1. Masuk ke dalam direktory project/ThirdParty
+1. Masuk ke dalam direktory project/app/ThirdParty
 
 <pre><code>cd app/ThirdParty</code></pre>
 
